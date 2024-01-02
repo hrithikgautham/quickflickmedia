@@ -1,0 +1,36 @@
+baseURL = "https://quickflickmedia.com"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+languageCode = 'en-us'
+title = 'QuickFlick Media'
+theme = 'hermit'
+
+copyright = "quickflickmedia"
+enableEmoji = true
+
+[params.author]
+  name = "QuickFlickMedia"
+  about = "Marketing Agency"
+
+[params]
+  [[params.socialLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/company/quickflickmedia"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/quickflick_"
+
+[menu]
+  [[menu.main]]
+    name = "Testimonials"
+    url = "contactus/"
+    weight = 20
+  [[menu.main]]
+    name = "Contact Us"
+    url = "contactus/"
+    weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
